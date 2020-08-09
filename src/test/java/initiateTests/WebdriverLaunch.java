@@ -23,6 +23,9 @@ public class WebdriverLaunch {
 		
 		//String browserVariable= PropertyFileManager.getPropertyValue("config", "browser");
 		
+		
+		//added through devSarthak Branch
+		
 		String browserVariable=System.getenv("browserName");
 		
 		if(browserVariable.equalsIgnoreCase("chrome")) {
