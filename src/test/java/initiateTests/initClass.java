@@ -35,6 +35,10 @@ public class initClass {
 	
 	@BeforeClass
 	public void launchDriver() throws IOException {
+		
+		//This is update done in SReporting branch
+		
+		
 		driver = WebdriverLaunch.getWindowDriver();
 		createPageObjects();
 		report = ExtentManager.setUp("Extent_Reports");
@@ -51,6 +55,15 @@ public class initClass {
 	public void launchURL() {
 		
 		driver.get(System.getenv("envURL"));
+		
+		
+		if(System.getenv("envURL").contains("qa")) {
+			
+		} else if (System.getenv("envURL").contains("dev")) {
+			
+		} else {
+			
+		}
 		LOGGER.info("Launching Redbus home page url");
 	}
 	
