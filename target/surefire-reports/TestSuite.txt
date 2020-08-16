@@ -1,14 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 70.485 sec <<< FAILURE!
-checkTitleOfRedBusHomePage(tests.RedBushomePageTest)  Time elapsed: 0.544 sec  <<< FAILURE!
-java.lang.AssertionError: expected [Boo Bus Travels, AC Volvo Bus, rPool & Bus Hire - redBus India] but found [Book Bus Travels, AC Volvo Bus, rPool & Bus Hire - redBus India]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:453)
-	at org.testng.Assert.assertEquals(Assert.java:463)
-	at tests.RedBushomePageTest.checkTitleOfRedBusHomePage(RedBushomePageTest.java:43)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.022 sec

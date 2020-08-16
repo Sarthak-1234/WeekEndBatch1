@@ -11,5 +11,6 @@ reporting\ListenersImplementation.class
 reporting\ReportingClass.class
 utils\CommonFunctions.class
 reporting\ExtentManager.class
+utils\Xls_Reader.class
 managers\ExcelFileManager.class
 pages\pilPages.class

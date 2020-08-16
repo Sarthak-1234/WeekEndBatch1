@@ -32,7 +32,6 @@ public class initClass {
 	protected static RedBusHomePage homePage;
 	protected static pilPages pilpage;
 	
-	
 	@BeforeClass
 	public void launchDriver() throws IOException {
 		

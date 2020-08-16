@@ -1,30 +1,6 @@
-2020-08-08 11:07:19.220 [main] INFO  initiateTests.WebdriverLaunch -
+2020-08-16 11:33:23.531 [main] INFO  initiateTests.WebdriverLaunch -
                     Launching ChromeBrowser
-2020-08-08 11:07:20.363 [main] INFO  initiateTests.initClass -
+2020-08-16 11:33:24.673 [main] INFO  initiateTests.initClass -
                     Created Objects of Pages
-2020-08-08 11:07:23.088 [main] INFO  initiateTests.initClass -
-                    Launching Redbus home page url
-2020-08-08 11:07:23.099 [main] INFO  tests.RedBushomePageTest -
-                    Running testcase bookTicketForRedBus
-2020-08-08 11:07:24.390 [main] INFO  pages.RedBusHomePage -
-                    Entering Kash in from dropdown
-2020-08-08 11:07:25.016 [main] INFO  pages.RedBusHomePage -
-                    Entering Amr in to dropdown
-2020-08-08 11:07:25.135 [main] INFO  pages.RedBusHomePage -
-                    Entering today's date
-2020-08-08 11:07:31.589 [main] INFO  pages.RedBusHomePage -
-                    Clicking on search button
-2020-08-08 11:07:34.932 [main] INFO  pages.RedBusHomePage -
-                    Clicking on view seat
-2020-08-08 11:07:36.778 [main] INFO  initiateTests.initClass -
-                    Launching Redbus home page url
-2020-08-08 11:07:37.290 [main] INFO  initiateTests.initClass -
-                    Launching Redbus home page url
-2020-08-08 11:07:37.291 [main] INFO  tests.RedBushomePageTest -
-                    Running testcase checkTitle
-2020-08-08 11:07:50.280 [main] INFO  initiateTests.WebdriverLaunch -
-                    Launching ChromeBrowser
-2020-08-08 11:07:51.413 [main] INFO  initiateTests.initClass -
-                    Created Objects of Pages
-2020-08-08 11:07:54.235 [main] INFO  initiateTests.initClass -
+2020-08-16 11:33:27.087 [main] INFO  initiateTests.initClass -
                     Launching Redbus home page url

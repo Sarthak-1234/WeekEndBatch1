@@ -5,16 +5,16 @@ import java.io.IOException;
 import org.testng.annotations.Test;
 
 import initiateTests.initClass;
-import managers.PropertyFileManager;
+import managers.ExcelFileManager;
+import utils.Xls_Reader;
+
 
 public class BusHireTest extends initClass{
 	
 	@Test
 	public void checkTitle() throws IOException {
-		
-		//homePage.dateSelect();
-		
-		//PropertyFileManager.getPropertyValue("xyz", "abc");
+	
+		String a = ExcelFileManager.getData("Data", "Sheet1", "Name", 3);
+		System.out.println(a);
 	}
-
 }
